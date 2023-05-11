@@ -1,0 +1,40 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Impact',
+    monospace;
+}
+
+.title {
+  text-align: center;
+  color: rgba(45, 204, 243, 0.979);
+  text-shadow: 2px 3px 1px black;
+  font-size: 40px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;  
+}
+
+#crypto-select {
+  margin-right: 7px; 
+  font-size: 16px;
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+  
+#period-select {
+  font-size: 16px;
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+  cursor: pointer; 
+}
+
+label {
+  font-size: 20px;
+}
